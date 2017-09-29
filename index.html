@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>The Psychic Game</title>
+	<meta charset="utf-8">
+
+	<!-- CSS References -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+
+	<!-- Bootstrap Reference -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+ 
+
+
+</head>
+<body>
+
+<!-- Use of Jumbotron -->
+<div class="jumbotron">
+  <h1>The Psychic Game</h1>
+  
+  <!-- Restart Button -->
+  <p><a class="btn btn-primary btn-lg" id="restart"href="index.html" role="button">Re-Start</a></p>
+</div>
+<br>
+
+<!-- Inserting image on the page -->
+<div class="img">
+  <img src="assets/images/pr.jpg">
+  <h1>Guess What Letter I'm Thinking of!!! </h1>
+</div>
+
+
+<!-- Indicators with the use if Alert Bootstrap -->
+<!-- ****************************************** -->
+
+<!-- Guesses so far indicator -->
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge" id="guesses_so_far"></span>
+    Guesses So Far -
+  </li>
+</ul>
+
+<!-- Guesses Left -->
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge" id="guesses_left"></span>
+    Number of Guesses Left -
+  </li>
+</ul>
+
+
+<!-- Wins  Indicator -->
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge" id="wins"></span>
+    Wins -
+  </li>
+</ul>
+
+<!-- Losses  Indicator -->
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge" id="losses"></span>
+    Losses -
+  </li>
+</ul>
+
+
+<!-- ****************************************** -->
+
+
+ <!-- Java Script -->
+  <script type="text/javascript" scr="assets/javascript/game.js"></script>
+
+</body>
+</html>
